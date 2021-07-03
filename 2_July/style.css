@@ -1,0 +1,21 @@
+body
+{
+    background-color: cornflowerblue;
+}
+p
+{
+    background-color: darkcyan;
+    font-size: 30px;
+}
+.force
+{
+    background-color: darkorange;
+}
+.something
+{
+    background-color: darksalmon;
+}
+h1
+{
+    text-align: center;
+}
