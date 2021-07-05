@@ -1,0 +1,92 @@
+/* a
+{
+    color:black;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+    color:blue;
+    font-size:40px;
+} */
+.blue
+{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    display: inline-block;
+}
+.red
+{
+    width:100px;
+    height:100px;
+    background-color: red;
+    display: inline-block;
+}
+h1
+{
+    background-color: chartreuse;
+    display: inline;
+}
+.purple
+{
+    width:50px;
+    height:50px;
+    background-color: crimson;
+    display: inline-block;
+}
+
+li
+{
+    display: inline;
+    margin-left:10px;
+}
+.logo
+{
+    width:100px;
+    height: 50px;
+}
+img
+{
+    width:100%;
+}
+.logo, .links
+{
+    position: absolute;
+    top:2px;
+}
+.links
+{
+    left:100px;
+}
+a
+{
+    text-decoration: none;
+    color:black;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+/* class_problem */
+body
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.box
+{
+    background-color: lightgrey;
+    text-align: center;
+}
+.arrow:hover
+{
+
+    margin-right:50px;
+}
+/* ul
+{
+    list-style:none;
+} */
