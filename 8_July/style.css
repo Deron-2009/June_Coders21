@@ -1,0 +1,33 @@
+body
+{
+    /*  have changed the defualt font */
+    font-size: 10px;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    width:100%;
+}
+/* .para
+{
+    font-size: 4em;
+}
+p
+{
+    font-size: 2rem;
+}
+.box
+{
+    font-size: 2rem;
+} */
+.content 
+{
+    background-color: black;
+    color:white;
+    font-size: 2rem;
+    width:100%;
+}
+.text
+{
+    margin:0 auto;
+    width:60%;
+}
