@@ -1,0 +1,51 @@
+body
+{
+    height:100%;
+}
+.green, .blue, .red {
+width:100px;
+height:100px;
+}
+.blue {
+    background-color: blue;  
+    float:right;
+}
+.red {
+    background-color: red;
+    float: right;
+}
+.green {
+    background-color: green;
+    clear:both;
+}
+img
+{
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+}
+p
+{
+    margin:20px;
+    clear:both;
+}
+.box
+{
+    width:200px;
+    border:2px solid black;
+    height:100vh;
+    overflow: scroll;
+}
+/* specific  */
+/* .boxed > p{
+    color: purple;
+} */
+p{
+    color:green;
+}
+.para{
+    color:red;
+}
+#paraid{
+    color:blue;
+}
