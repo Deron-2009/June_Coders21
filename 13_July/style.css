@@ -1,0 +1,36 @@
+/* Light Blue => #2E7AD3
+Dark Blue => #104c90
+Orange => #FF8000
+Light Grey => #F1F1F1 */
+h1{
+    color:#2E7AD3;
+    font-size:48px;
+    text-align: center;
+    margin-top:45px;
+    margin-bottom:45px;
+}
+h2{
+    color:#104c90;
+    font-size:32px;
+    padding-bottom:25px;
+}
+p{
+    font-size: 16px;
+    padding-bottom:9px;
+}
+.container{
+    background-color:#F1F1F1;
+    width:500px;
+    /* padding:0 40px; */
+    margin:0 auto;
+}
+a{
+    color:#FF8000;
+}
+img
+{
+    text-align: center;
+}
+.content{
+    padding:0 30px;
+}

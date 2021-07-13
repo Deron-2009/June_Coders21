@@ -1,0 +1,31 @@
+/* .red{
+    display: inline;
+} */
+/* .green{
+    display: inline;
+} */
+/* .blue{display: inline;} */
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:400px;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+div
+{
+    border: 1px solid black;
+}
+li{
+    list-style: none;
+    /* padding-left:100px; */
+}
+ul
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
