@@ -1,0 +1,51 @@
+/* Orange => #EF5839
+Blue => #2E354F
+White => #FFF */
+body{
+    font-size: 18px;
+    padding:0;
+    margin:0;
+}
+h1{
+    font-size: 36px;
+    color:#FFF;
+    padding:35px 0;
+
+}
+h2{
+    font-size: 24px;
+    color:#EF5839;
+    padding:25px 0;
+}
+a{
+    color:#EF5839;
+}
+span{
+    font-weight: 900;
+}
+.colorblue{
+    background-color: #2E354F;
+    padding:15px 0px;
+}
+.center{
+    margin:0 auto;
+    width:620px;
+}
+.btn
+{
+    padding:15px 30px;
+    color:white;
+    display: inline-block;
+    
+}
+.contactus{
+    background-color: #EF5839;
+}
+.moreinfo{
+    background-color: #FFF;
+    color:black;
+}
+.paracolor
+{
+    color:white;
+}
