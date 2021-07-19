@@ -1,0 +1,40 @@
+body{
+    background-color: yellowgreen;
+    font-size: 32px;
+}
+.home{
+    background-color: lightseagreen;
+    align-self: center;
+    /* flex-grow:1; */
+    /* flex-shrink:1; */
+    /* flex-basis:600px; */
+    /* order:10; */
+    /* margin-left:auto; */
+}
+.search{
+    background-color: lightblue;
+    /* flex: grow shrink basis; */
+    /* flex:1 0 500px; */
+    /* flex-grow: 1;
+    flex-basis: 300px; */
+    /* flex-shrink: 1; */
+    /* margin-left:auto; */
+}
+.logout{
+    background-color: lightcoral;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* order:11; */
+    /* margin-left:auto; */
+}
+.container{
+    border:5px solid black;
+    display: flex;
+    height:300px;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    /* Main Axis => justify-content*/
+    /* justify-content: center; */
+    /* Cross Axis => Align Content*/
+    /* align-items: center;  */
+}
