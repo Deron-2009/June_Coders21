@@ -1,0 +1,14 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+}
+
+.home {
+  /* flex: 1; */
+  flex-basis:200px;
+}
+
+.logout {
+  /* flex: 1; */
+  flex-basis:200px;
+}
