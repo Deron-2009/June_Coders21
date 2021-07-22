@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+.middle{
+    display: flex;
+    padding:20px 0px;
+}
+.last{
+    display: flex;
+}
+.one{
+    width:30%;
+}
+.two{
+    padding:0px 30px;
+    width:50%;
+}
+.three, .five{
+    width:20%;
+}
+.four{
+    width:80%;
+    padding-right:60px;
+}
+.color-bg{
+    background-color: #312614;
+    color:white;
+    padding:10px 20px;
+}
+@media screen and (max-width: 758px){
+    .middle, .last{
+        flex-direction: column;
+    }
+    .two, .four{
+        padding:0px;
+    }
+    .one, .two, .three, .four, .five{
+        width:100%;
+        padding-bottom:20px;
+    }
+}
