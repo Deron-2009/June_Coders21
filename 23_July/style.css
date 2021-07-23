@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-top:25px;
+    justify-content: space-between;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+header{
+    background-color: yellow;
+    display: flex;
+    padding:45px 15px;
+    justify-content: space-around;
+}
+nav{
+    align-self: center;
+}
+li{
+    display: inline;
+    padding-left:30px;
+}
+footer{
+    background-color: blue;
+    width:100%;
+}
+footer > p{
+
+    padding:25px 25px;
+}
