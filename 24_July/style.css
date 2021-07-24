@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+}
+/* Typography */
+h2,h5{
+    color:#143774;
+}
+
+/* layout */
+
+/* Header */
+header{
+    background-color: yellow;
+    display: flex;
+    padding:45px 15px;
+    justify-content: space-around;
+}
+nav{
+    align-self: center;
+}
+li{
+    display: inline;
+    padding-left:30px;
+}
+
+/* Container */
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-top:25px;
+    justify-content: space-around;
+}
+
+article{
+    flex-basis:70%;
+}
+aside{
+    flex-basis: 15%;
+}
+
+h2{
+    padding-bottom:25px;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Article */
+
+.article{
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    flex-basis: 30%;
+}
+.text{
+    flex-basis: 65%;
+}
+.img-text{
+    height: 250px;
+}
+.date{
+    padding:25px 0px;
+}
+.text > a{
+    display: block;
+    padding:25px 0px;
+}
+/* Aside */
+
+.about-me, .recent-posts{
+    border:15px solid whitesmoke;
+    padding:20px;
+}
+.about-me > img{
+    width:150px;
+}
+.recent-posts > p{
+    border-bottom:1px solid black;
+}
+.recent-posts > p:last-child{
+    border:none;
+}
+.main-article{
+    border-bottom:1px solid black;
+}
+
+
+/* Footer */
+footer{
+    text-align: center;
+    color:white;
+    background-color: blue;
+    padding:25px;
+}
+footer > h2{
+    color:white;
+}
