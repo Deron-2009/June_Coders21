@@ -24,3 +24,18 @@ btn.addEventListener("click",
 function(){
     body.style.backgroundColor = input.value
 })
+var activate = false
+const mode = document.querySelector("#mode")
+mode.addEventListener("click",
+function(){
+    if(activate === false){
+        body.style.backgroundColor = "black"
+        mode.value = "Light Mode"
+        activate = true
+    }
+    else{
+        body.style.backgroundColor = "white"
+        mode.value = "Dark Mode";
+        activate = false
+    }
+})
