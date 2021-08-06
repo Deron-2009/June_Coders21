@@ -1,0 +1,12 @@
+#roll_btn{
+    box-shadow: 10px 10px 5px black;
+
+}
+#box{
+    display: flex;
+    justify-content: space-between;
+}
+.dice_box{
+    width:40%;
+    margin:0 auto;
+}
