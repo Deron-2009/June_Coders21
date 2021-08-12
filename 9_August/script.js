@@ -10,16 +10,16 @@
 // }
 // let $t_3 = 7 // $, and _ are allowed in variable names
 // let johnAlice = "32" //camelCase
-const menu = {
-    "breakfast": "eggs",
-    "lunch": "spaghetti",
-    "dinner": "pizza",
-    food: function add(){
-        console.log("Hello")
-    },
-    students:["Deron", "John", "Chad", "Sara", "Kelsey", "Dennis"]
-}
-console.log(menu.food) // dot notation
+// const menu = {
+//     "breakfast": "eggs",
+//     "lunch": "spaghetti",
+//     "dinner": "pizza",
+//     food: function add(){
+//         console.log("Hello")
+//     },
+//     students:["Deron", "John", "Chad", "Sara", "Kelsey", "Dennis"]
+// }
+// console.log(menu.food) // dot notation
 
 
 // const section = document.getElementsByTagName("div")
