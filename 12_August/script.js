@@ -8,9 +8,9 @@ function(){
     if(i < slides.length - 1){
     i = i + 1;
     slides[i].classList.add("visible-slide");
-    console.log(`Slide NO. ${i} is added`)
+    // console.log(`Slide NO. ${i} is added`)
     slides[i-1].classList.remove("visible-slide");
-    console.log(`Slide NO. ${i-1} is removed`);
+    // console.log(`Slide NO. ${i-1} is removed`);
     }
 })
 prev.addEventListener("click",

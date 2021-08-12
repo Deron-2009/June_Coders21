@@ -4,3 +4,21 @@
 .visible-slide{
     display: block;
 }
+.next{
+   border-radius: 30px;
+}
+img{
+    width:100%;
+}
+.slider{
+    width:100%;
+    max-width: 600px;
+    position: relative;
+}
+.slider-buttons{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+}
