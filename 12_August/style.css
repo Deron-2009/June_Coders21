@@ -12,13 +12,13 @@ img{
 }
 .slider{
     width:100%;
-    max-width: 600px;
-    position: relative;
+    max-width:600px;
+    position:relative;
 }
 .slider-buttons{
-    display: flex;
     width:100%;
+    display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 50%;
+    top:50%;
 }
