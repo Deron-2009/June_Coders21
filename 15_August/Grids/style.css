@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 100px 100px;
+    /* grid-template: 100px/ repeat(3, 1fr);
+    grid-auto-rows: 100px; */
+    grid-gap: 10px;
+}
+.container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
