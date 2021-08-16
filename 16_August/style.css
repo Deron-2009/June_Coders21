@@ -1,0 +1,38 @@
+.container{
+    border:1px solid black;
+    display: grid;
+    grid-template-columns: repeat(6, 50px);
+    /* grid-template-rows: 1fr 150px 1fr 100px 150px 100px 70px 200px; */
+    grid-gap: 10px;
+    grid-template-areas:
+    "f f f f f f"
+    "h h h h h h"
+    "b b b b b b"
+    "i i i i i i"
+    ". s s s s ."
+    "ba ba ba ba ba ba"
+    "sb sb sb sb sb sb";
+    justify-content: center;
+}
+.header{
+    grid-area: h;
+}
+.banner{
+    grid-area: b;
+}
+.icons{
+    grid-area: i;
+}   
+.smallbanner{
+    grid-area: sb;
+}
+.footer{
+    grid-area: f;
+}
+.section{
+    grid-area: s;
+}
+.banner2{
+    grid-area: ba;
+}
+

@@ -1,0 +1,12 @@
+.header, .footer{
+    background-color: aqua;
+}
+.section{
+    background-color: orangered;
+}
+.banner{
+    background-color: yellowgreen;
+}
+.smallbanner, .icons{
+    background-color: palevioletred;
+}

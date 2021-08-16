@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 200px 1fr;
+    grid-template-areas: 
+    "sidebar header header"
+    "sidebar main main"
+    "sidebar footer footer"
+}
+.header, .footer{
+    background-color: aquamarine;
+}
+.sidebar{
+    background-color: blue;
+}
+.main{
+    background-color: brown;
+}
+.header{
+    grid-area: header;
+}
+.main{
+    grid-area: main;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.footer{
+    grid-area: footer;
+
+}
