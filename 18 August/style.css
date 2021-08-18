@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-columns:repeat(auto-fit, minmax(50px, 1fr))
+    ;   */
+    /* writing-mode: vertical-lr; */
+}
+.box{
+    border: 1px solid black;
+}
