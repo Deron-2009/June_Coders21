@@ -20,11 +20,8 @@ push.addEventListener("click", function () {
     }
 })
 pop.addEventListener("click", function () {
-    if (text.value)
-    {
-        myListItems.pop();
-        display();
-    }
+    myListItems.pop();
+    display();
 })
 text.addEventListener("keyup", function (e) {
     if (e.keyCode === 13) {
