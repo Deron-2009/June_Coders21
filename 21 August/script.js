@@ -26,4 +26,11 @@ pop.addEventListener("click", function () {
         display();
     }
 })
-
+text.addEventListener("keyup", function (e) {
+    if (e.keyCode === 13) {
+        if (text.value) {
+            myListItems.push(text.value);
+            display();
+        }
+    }
+})
